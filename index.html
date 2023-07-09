@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Order Pizza Online - Delivery and Takeaway</title>
+</head>
+<body>
+    <header>
+        <nav class="container" id="navbar">
+        
+<img src="images/pizza hut logo.png" alt="logo">
+<a href="#">Sign in</a>
+
+        </nav>
+    </header>
+    <main>
+        <div id="background" class="container-fluid"></div>
+    <div id="overlap">
+        <div id="content">
+            <div id="relative-box">
+                <!-- buttons -->
+                <div>
+                    <div id="flex-btn1">
+            <button id="btn1" onclick="changebackButtonStyle()"><span class="icon-delivery"><img src='images/delivery-bike-32x32.36bfbc1f71423e3d93e140394dd302f3.gif' alt=""></span><span id="card-btn-name">Delivery</span></button>
+        </div>
+        <div id="flex-btn2">
+            <button id="btn2" onclick="changeButtonStyle()"><span class="icon-delivery" onclick="changeButtonStyle()"><img src='images/collection-32x32.c3cdbff96f386154787b2945c73a16b6.gif' alt=""></span><span id="card-btn-name">Collect From Store</span></button>
+        </div>
+<!-- form msg -->
+<div id="form">
+    <div id="msg-box">
+        <div id="heading">
+            <span><strong>FIND YOUR NEAREST HUT</strong></span>
+        </div>
+        <div id="instruction">
+            <span>Enter your address to see your local deals, coupons and offers.</span>
+        </div>
+    </div>
+
+    <!-- form -->
+    <form action="#">
+        <div id="form-container">
+            <div id="location-input">
+                <input id="changePlaceholder"type="text" placeholder="Enter your location for delivery">
+            </div>
+            <div id="current-location">
+                <div id="flexchild-location">
+                    <button id="flex-button">
+                        <span> <img src="images/location-icon.svg" alt=""> </span>
+                      <p>Find my current location</p>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+            </div>
+        </div>
+     </div>
+ </div>
+<!-- Popular deals -->
+<div id="bg-white">
+    
+    <h2>
+        <span><strong>Our Most Popular Deals</strong></span>
+    </h2>
+    <!-- images -->
+    
+</div>
+<div id="flex-container">
+    <div class="container">
+    <div class="row">
+        <div class=" col-12  col-md-6">
+            <a href="#">
+                <img id="img1" src="images/1plus1.jpg" alt="">
+                <div class="disclaimer  bg-secondary" style="text-decoration: none;"><span class="text-light" style="text-decoration: none;">Deal may vary by location, only at participating stores, excluding dine-in restaurants, T&amp;Cs apply</span></div>
+            </a>
+        </div>
+         <div class="col-12 col-md-6" id="sec-element">
+            <a href="#">
+                <img id="img2" src="images/hut300.jpg" alt="">
+                <div class="disclaimer bg-secondary"><span class="text-light">Deal may vary by location, only at participating stores, excluding dine-in restaurants, T&amp;Cs apply</span></div>
+                
+            </a>
+        </div>
+       <div><button id="bg-success">View all deals</button></div>
+    </div> 
+</div>
+</div>
+</div>
+
+<!-- footer -->
+<footer>
+    <div id="footer-container">
+        <div class="container">
+            <div class="row py-30" id="flex-row">
+                 <div class="col-12 col-md-3 col-sm-6 lists">
+                    <h4>Order now</h4>
+                    <ul>
+                        <li><a href="#"></a>Deals</li>
+                        <li><a href="#"></a>Pizza</li>
+                        <li><a href="#"></a>Sides</li>
+                        <li><a href="#"></a>Drinks</li>
+                        <li><a href="#"></a>Desserts</li>
+                    </ul>
+                </div>
+
+                <div class="col-12 col-sm-3 lists">
+                    <h4>About</h4>
+                    <ul>
+                        <li><a href="#"></a>About Us</li>
+                        <li><a href="#"></a>Contactless Delivery</li>
+                        <li><a href="#"></a>Nutrition</li>
+                        <li><a href="#"></a>Career</li>
+                    </ul>
+                </div>
+
+                <div class="col-12 col-sm-3  lists">
+                    <h4>Our Policies</h4>
+                    <ul>
+                        <li><a href="#"></a>Privacy</li>
+                        <li><a href="#"></a>Terms and Conditions</li>
+                        <li><a href="#"></a>Responsible disclosure</li>
+                        <li><a href="#"></a>Faqs & Help</li>
+                    </ul>
+                </div>
+
+                <div class="col-12 col-sm-3  lists">
+                    <h4>Visit Pizza Hut</h4>
+                    <ul>
+                        <li><a href="#"></a>Locate a store</li>
+                        <li><a href="#"></a>Global Blog</li>
+                    </ul>
+                </div> 
+            </div>
+            <!-- second-row -->
+            <div class="row flex-logo">
+                <div class="col-4"></div>
+                <div class="col-2" id="apple-container">
+                    <img  src="images/apple-logo.svg" alt="">
+                </div>
+                <div class="col-2" id="google-container">
+                    <img id="google" src="images/google-play-logo.png" alt="">
+                </div>
+                <div class="col-4"></div>
+            </div>
+      
+
+         <!-- third-row -->
+
+        <div class="row mt-60" id="third-row">
+            <div class="col-md-4 col-sm-3 col-12" id="feedback">
+                <p>Help us in serving you better</p>
+            </div>
+           <div class="col-md-4  col-sm-3 col-12" id="center-btn">
+                <button id="fd-button"><a href="#">Give FeedBack</a></button>
+            </div>
+
+            <div class="col-md-4 col-sm-6 col-12" id="social-media">
+                <div id="center-div">
+                <div id="center"><p>Follow Us</p></div>
+                <div id="logos">
+                    <ul>
+                        <li><a href="#"><i class="fa-brands fa-facebook-f" style="color: #ffffff;"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-twitter" style="color: #ffffff;"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-youtube" style="color: #ffffff;"></i></a></li>
+                       
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- fourth-row -->
+        <div class="row" id="footer-text">
+            <p>Order a delicious pizza on the go, anywhere, anytime. Pizza Hut is happy to assist you with your home delivery. Every time you order, you get a hot and fresh pizza delivered at your doorstep in less than
+                thirty minutes. *T&C Apply.<br>Hurry up and place your order now!
+            </p>
+
+            <p>© 2023 Pizza Hut India. All rights reserved. License Number: 10017011004220</p>
+        </div>
+       </div>
+    </div>
+
+    <!-- final-row -->
+    <div class="row" id="fssai-logo">
+        <div id="fssai-container">
+            <img src="images/fssai-logo.svg" alt="">
+        </div>
+    </div>
+</footer>
+<!-- bootstrap script -->
+<script>
+    function changeButtonStyle() {
+    document.getElementById('btn2').style.filter="none";
+    document.getElementById('btn2').style.color=" #da291c";
+    document.getElementById('btn2').style.height="62px";
+    document.getElementById('btn2').style.backgroundColor="white";
+
+    document.getElementById('btn1').style.filter="grayscale(100%) contrast(80%)";
+    document.getElementById('btn1').style.top="10px";
+    document.getElementById('btn1').style.height="62px";
+    document.getElementById('btn1').style.backgroundColor="white";
+    document.getElementById('btn1').style.color=" #da291c";
+
+    document.getElementById('changePlaceholder').placeholder="Enter your collection location"
+        }
+
+  function changebackButtonStyle() {
+  document.getElementById('btn2').style.filter = '';
+  document.getElementById('btn2').style.color = '';
+  document.getElementById('btn2').style.height = '';
+  document.getElementById('btn2').style.backgroundColor = '';
+
+  document.getElementById('btn1').style.filter = '';
+  document.getElementById('btn1').style.top = '';
+  document.getElementById('btn1').style.height = '';
+  document.getElementById('btn1').style.backgroundColor = '';
+  document.getElementById('btn1').style.color = '';
+  document.getElementById('changePlaceholder').placeholder='Enter your location for delivery';
+}
+</script>
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
